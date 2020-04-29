@@ -1,0 +1,95 @@
+body {
+  background-color: #f7fff7;
+  font-family: 'Helvetica', sans-serif;
+  color: rgb(24, 24, 24);
+  font-size: 16px;
+  font-weight: 320;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h1 {
+  color: #247ba0;
+  font-weight: 400;
+  margin: 0px 0px 16px 0px;
+  }
+
+h2 {
+  color: #4ecdc4;
+  font-weight: 400;
+}
+
+a {
+  color: #ff6b6b;
+  text-decoration: none;
+}
+
+.button-red:hover {
+  background-color: #ff2a2a;
+  box-shadow: 0 8px 32px rgba(0,0,0,.2); 
+  color: white;
+}
+
+a:hover {
+    color: #ff2a2a;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.1); 
+  margin: 8px 0px;
+}
+
+img {
+  width: 160px;
+  border-radius: 50%;
+  height: 160px;
+  object-fit: cover;
+  object-position: 100% 64%;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0px;
+  display: inline-block;
+  margin: 0;
+}
+
+li {
+  font-size: 32px;
+  padding: 0px 16px;
+}
+
+.button-red{
+  background-color: #ff6b6b;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.1); 
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 350px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 280px;
+  }
+}
